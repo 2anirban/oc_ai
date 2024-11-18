@@ -4,7 +4,7 @@ import base64
 import requests
 #import fitz  # PyMuPDF
 import json
-from openai import OpenAI
+#from openai import OpenAI
 from dotenv import load_dotenv
 import streamlit as st
 from openai.types.chat.chat_completion import ChatCompletion
@@ -16,7 +16,7 @@ load_dotenv()
 #Create a streamlit app for uploading the pdf document
 
 #https://api.openai.com/v1/chat/completions
-client= OpenAI()
+#client= OpenAI()
 LLM= os.environ.get("OPEN_AI_MODEL")
 api_key = os.environ.get("OPENAI_API_KEY")
 

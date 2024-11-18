@@ -5,11 +5,11 @@ import requests
 #import fitz  # PyMuPDF
 import json
 #from openai import OpenAI
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import streamlit as st
 from openai.types.chat.chat_completion import ChatCompletion
 import pymupdf
-load_dotenv()
+#load_dotenv()
 
 
 # Get the PDF document and convert it into image(PNG)
